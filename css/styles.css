@@ -80,6 +80,7 @@ button {
     border: none;
     border-radius: 8px;
     margin-top: 15px;
+    flex-shrink: 0;
 }
 
 .info-container {
@@ -138,4 +139,28 @@ blockquote {
     font-weight: bold;
     font-size: 24px;
     margin-right: 50px;
+}
+
+.call-to-action-container {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 50px 100px;
+    margin: 75px auto;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.call-to-action-header {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.white-border {
+    border: 2px solid #e5e7eb;
+}
+
+.call-to-action-container button {
+    margin: 0;
 }
