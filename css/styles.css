@@ -84,6 +84,7 @@ button {
 .info-container {
     display: flex;
     flex-direction: column;
+    padding: 75px;
 }
 
 .info-header {
@@ -91,7 +92,6 @@ button {
     font-weight: 900;
     color: #1f2937;
     text-align: center;
-    padding: 75px 0;
 }
 
 .info-card-container {
@@ -113,4 +113,28 @@ button {
 .info-card p {
     font-weight: 300;
     text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-container p {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 100px;
 }
