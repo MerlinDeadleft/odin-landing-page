@@ -31,7 +31,7 @@ nav {
     display: flex;
     align-content: center;
     margin-left: auto;
-    gap: 15px;
+    gap: 25px;
 }
 
 nav a {
