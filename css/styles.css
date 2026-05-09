@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     width: 66%;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -38,7 +39,41 @@ nav a {
     align-content: center;
 }
 
+img {
+    flex: 1 1 100%;
+    width: 100%;
+    min-width: 1px;
+    max-width: 800px;
+    height: auto;
+}
+
+.hero-text-container {
+    flex-shrink: 2;
+    min-width: 350px;
+}
+
+.hero-container {
+    padding: 125px 0;
+    display: flex;
+    gap: 50px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8
+}
+
 .hero-secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 35px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
 }
